@@ -1,5 +1,0 @@
-[server]
-bind = "http://127.0.0.1:8080/"
-gpx_backup_location = "./gpx"
-ftb_backup_location = "./ftb"
-key = "ZIPC5RxBcBEnfvwPwMZy7"
