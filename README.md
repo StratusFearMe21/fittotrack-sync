@@ -6,6 +6,7 @@ For maximum convenience install `qrencode` on the server you're using (not requi
 ```
 cargo build --release
 target/release/fittotrack-sync setup
+target/release/fittotrack-sync
 ```
 
 View more detailed setup instructions in the Wiki
