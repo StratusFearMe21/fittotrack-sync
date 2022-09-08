@@ -1,0 +1,6 @@
+[server]
+bind = "unix:///var/run/fittotrack.sock"
+unix_permissions = "770"
+gpx_backup_location = "<nextcloud data dir>/<nextcloud username>/files/FitToTrack/gpx"
+ftb_backup_location = "<nextcloud data dir>/<nextcloud username>/files/FitToTrack/ftb"
+key = "lvnb9j-q6ZGrgrvw5wwlv"

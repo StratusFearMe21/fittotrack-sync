@@ -1,6 +1,6 @@
 [package]
 name = "fittotrack-sync"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -18,3 +18,8 @@ tokio = { version = "1.21.0", features = ["rt-multi-thread", "macros", "fs", "io
 tokio-util = { version = "0.7.3", features = ["io"] }
 toml = "0.5.9"
 url = { version = "2.2.2", features = ["serde"] }
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+strip = true
